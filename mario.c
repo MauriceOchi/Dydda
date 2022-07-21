@@ -1,15 +1,15 @@
-#include <cs50.h>
+
 #include <stdio.h>
 
 int main (void)
 {
     int n;
+
     do
     {
-        n = get_int("Height: ");
+	    n = get_int("Enter Positive Number: ");
     }
-
-    while (n < 1 || n > 8);
+    while(n < 1 || n > 8)
 
     //for each row
     for (int i = 1; i < n; i++)
