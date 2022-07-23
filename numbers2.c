@@ -1,7 +1,7 @@
 /* prints all single digits from 1 to 10
 * uses a for loop to print one digit at a time
 * returns 0 for success
-  */
+*/
 
 #include <stdio.h>
 
