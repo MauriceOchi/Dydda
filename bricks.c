@@ -8,12 +8,12 @@
 int main(void)
 {
     int n;
-    puts("Enter number: \n");
+    puts("Enter number: ");
     scanf("%d", &n);
 
-    for(int i = 0; i <= n; i++)
+    for(int i = 0; i < n; i++)
     {
-        for(int j = i; j <= n; j++)
+        for(int j = i; j < n; j++)
         {
            printf("#");
         }
