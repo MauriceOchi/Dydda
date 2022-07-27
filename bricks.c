@@ -1,4 +1,6 @@
 // Algorithm testing
+// Prompts user for int and prints an inverted version of mario
+
 
 
 #include <stdio.h>
