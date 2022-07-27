@@ -37,26 +37,22 @@ int main(void)
 //checks and returns the largest float
 float max(float f1, float f2)
 {
-    float f1 = 
-    float f2 = 
 
-    if(float f1 > float f2)
+    if(f1 > f2)
     {
-        return float f1;
+        return f1;
     }
     else 
-        return float f2;
+        return f2;
 }
 
 float min(float f1, float f2)
-{
-    float f1 = 
-    float f2 = 
+{ 
 
-    if(float f1 < float f2)
+    if(f1 < f2)
     {
-        return float f1;
+        return f1;
     }
     else 
-        return float f2;
+        return f2;
 }

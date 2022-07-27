@@ -25,7 +25,15 @@ int main(void)
 }
 
 void printThreat(enum threat_t threat)
+switch (expression)
+{
+case /* constant-expression */:
+	/* code */
+	break;
 
+default:
+	break;
+}
 
 
 void printShoes(enum threat_level_t myThreat)

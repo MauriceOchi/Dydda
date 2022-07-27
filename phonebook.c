@@ -26,7 +26,7 @@ for(int i = 0; i < 2; i++)
     if(strcmp(people[i].name, "Dydda") == 0)
     {
        {
-           printf("FOund %s\n", people[i].number);
+           printf("Found %s\n", people[i].number);
            return 0;
        }
     }
