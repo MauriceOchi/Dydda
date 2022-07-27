@@ -5,7 +5,9 @@
 
 int main(void)
 {
-    int n = 3;
+    int n;
+    puts("Enter number: \n");
+    scanf("%d", &n);
 
     for(int i = 0; i <= n; i++)
     {
