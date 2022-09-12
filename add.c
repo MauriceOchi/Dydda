@@ -9,21 +9,21 @@ int main(void)
     printf("Enter Second Number: \n");
     scanf("%d", &y);
  
-    char 'a' 's' 'm' 'd';
+    char op[] = {'a', 's', 'm', 'd'};
 
     printf("What operation to perform? a,s,m,d: \n");
-    scanf("%c", char);
+    scanf("%c", &op);
 
 
-    if(char == 'a')
+    if(op == 'a')
     {
         result = x+y;
     }
-    else if (char == 's')
+    else if (op == 's')
     {
         result = x-y; 
     }
-    else if(char == 'm')
+    else if(op == 'm')
     {
         result = x*y;
     }
