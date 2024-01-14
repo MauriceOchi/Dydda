@@ -9,8 +9,8 @@ enum threat_level_t {
 	High,
 	Severe
 	};
-void printThreat(enum threat_level_t threat)
-void printShoes(enum threat_level_t myThreat)
+void printThreat(enum threat_level_t threat);
+void printShoes(enum threat_level_t myThreat);
 
 int main(void)
 {
