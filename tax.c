@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <cs50.h>
 
+
 float tax(float rate);
 int main(void)
 {
+    float original_amount;
     float original_amount = get_float("Original Amount: ");
 
     float amount_with_tax = tax(original_amount);

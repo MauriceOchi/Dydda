@@ -49,7 +49,6 @@
             "command": "install",
             "problemMatcher": [],
             "detail": "CMake template install task"
-        }
-    ],
-    "version": "2.0.0"
+        },
+    ]
 }
