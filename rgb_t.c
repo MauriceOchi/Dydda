@@ -5,10 +5,15 @@
 
 #include <stdio.h>
 
-typedef unsigned int rgb_t;
-rgb_t getRedForPixel(int x, int y)
-rgb_t getGreenForPixel(int x, int y)
-rgb_t getBlueForPixel(int x, int y)
+typedef struct {
+    unsigned int red;
+    unsigned int green;
+    unsigned int blue;
+} rgb_t;
+
+rgb_t getRedForPixel(int x, int y);
+rgb_t getGreenForPixel(int x, int y);
+rgb_t getBlueForPixel(int x, int y);
 
 int main(void)
 {
